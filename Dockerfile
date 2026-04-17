@@ -8,7 +8,6 @@ COPY apps/next/package.json apps/next/
 COPY packages/auth/package.json packages/auth/
 COPY packages/branding/package.json packages/branding/
 COPY packages/components/package.json packages/components/
-COPY packages/console/package.json packages/console/
 COPY packages/core/package.json packages/core/
 COPY packages/cortex/package.json packages/cortex/
 COPY packages/drizzle/package.json packages/drizzle/
@@ -17,7 +16,6 @@ COPY packages/enterprise/package.json packages/enterprise/
 COPY packages/env/package.json packages/env/
 COPY packages/images/package.json packages/images/
 COPY packages/inngest/package.json packages/inngest/
-COPY packages/integrations/package.json packages/integrations/
 COPY packages/interfaces/package.json packages/interfaces/
 COPY packages/lib/package.json packages/lib/
 COPY packages/payments/package.json packages/payments/

@@ -53,6 +53,7 @@ let config = {
     // Tommy, I love you so much https://holocron.so/blog/optimizing-next.js-cold-starts-for-vercel
     esmExternals: false,
   },
+  output: process.env.DOCKER_BUILD ? "standalone" : undefined,
   reactStrictMode: true,
   swcMinify: true,
   i18n: {

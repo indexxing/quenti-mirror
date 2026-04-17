@@ -22,7 +22,7 @@ COPY packages/payments/package.json packages/payments/
 COPY packages/prisma/package.json packages/prisma/
 COPY packages/trpc/package.json packages/trpc/
 COPY packages/types/package.json packages/types/
-RUN bun install --frozen-lockfile
+RUN bun install
 
 # ---- builder ----
 FROM base AS builder
